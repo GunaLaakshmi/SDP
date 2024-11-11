@@ -1,0 +1,23 @@
+/*.cart-background {
+    background-image: url('https://img.freepik.com/premium-vector/fashion-clothes-store-illustration_994744-17258.jpg?w=740');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh; /* Ensure the background covers the full height of the page 
+  }
+  
+  /*.cart-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* White overlay with 80% opacity 
+  }
+  
+  /*.cart-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the overlay 
+  }
+*/

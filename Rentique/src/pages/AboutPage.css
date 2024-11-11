@@ -1,0 +1,23 @@
+.about-background {
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh; /* Ensure the background covers the full height of the page */
+  }
+  
+  .about-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6); /* White overlay with 80% opacity */
+  }
+  
+  .about-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the overlay */
+  }
+  
